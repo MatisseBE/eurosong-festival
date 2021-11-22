@@ -1,0 +1,41 @@
+//Importing all variables
+@import "./settings/colors.scss";
+@import "./settings/font-sizes.scss";
+
+//importing all components
+@import "./components/body.scss";
+@import "./components/nav.scss";
+
+@import"./components/feedback.scss"
+
+
+
+
+
+
+
+
+
+
+// // %extendNme {}
+// // to use it in components @extend name
+// %banner {
+//     background-color: red;
+//     color:black;
+//     padding: 20px;
+// }
+
+// #banner1 {
+//     @extend banner;
+// }
+
+// #banner2 {
+//     @extend banner;
+// }
+
+
+
+
+
+
+

@@ -8,6 +8,16 @@ new Vue({
 }).$mount('#app')
 
 
+
+
+
+
+
+
+
+
+
+
 //ES5 variable decleration
 // var firstname = "Matisse"
 // var name = "Van Wezer"
@@ -210,7 +220,7 @@ new Vue({
 //     console.log(this.firstname + " " + this.lastname)
 //   }
 // }
-import {User,Teacher} from "./js/classes/User"
+// import {User,Teacher} from "./js/classes/User"
 
 // class Teacher extends User {
 //   constructor(firstname,lastname,degree){
@@ -222,11 +232,11 @@ import {User,Teacher} from "./js/classes/User"
 //   }
 // }
 
-let user1 = new User("Matisse","Van Wezer")
-let user2 = new User("Bratt","Pitt")
+// let user1 = new User("Matisse","Van Wezer")
+// let user2 = new User("Bratt","Pitt")
 
-let teacher1 = new Teacher("X","Y","Lager")
-teacher1.teach()
+// let teacher1 = new Teacher("X","Y","Lager")
+// teacher1.teach()
 
-user1.getFullname()
-teacher1.getFullname()
+// user1.getFullname()
+// teacher1.getFullname()

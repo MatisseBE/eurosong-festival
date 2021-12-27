@@ -11,8 +11,10 @@
             </tr>
             <tr v-for="(list,index) in SongRankingList.slice().sort((a , b) => b.points - a.points)" v-bind:key="index"> 
                 <td v-bind="list">
-                    <b v-if="index == 0">{{list.song.title }}</b>
-                    <a v-else> {{list.song.title }}</a>
+                    <b v-if="index == 0" style="color:gold;font-size:22px; ">{{list.song.title }}</b>
+                    <b v-else-if="index == 1" style="color:silver;font-size:20px; ">{{list.song.title }}</b>
+                    <b v-else-if="index == 2" style="color:grey;font-size:18; ">{{list.song.title }}</b>
+                    <a v-else style="color:bronze;font-size:15; "> {{list.song.title }}</a>
                 </td>
 
                 <td v-bind="list">
